@@ -1,29 +1,33 @@
 #include <iostream>
 using namespace std;
-int factorial(int n)
+int binarySearch(int arr[], int size, int key)
 {
-    int temp = 1;
-    for (int i = 0; i < n; i++)
+    int start = 0;
+    int end = size - 1;
+    int mid = start + (end - start) / 2;
+    while (start <= end)
     {
-        temp *= (n - i);
+        if (arr[mid] == key)
+        {
+            return mid;
+        }
+        if (key >= arr[mid])
+        {
+            start = mid + 1;
+        }
+        else
+        {
+            end = mid - 1;
+        }
+        int mid = start + (end - start) / 2;
     }
-    return temp;
-}
-int findnCr(int n, int r)
-{
-    int n1 = factorial(n);
-    int r1 = factorial(r);
-    int n2 = factorial(n - 2);
-
-    return (double)(n1 / (n2 * r1));
+    return -1;
 }
 int main()
 {
-    int n, r;
-    cout << "Enter value of n: ";
-    cin >> n;
-    cout << "Enter value of r: ";
-    cin >> r;
-    double result = findnCr(n, r);
-    cout << result << endl;
+    int even[6] = {2, 4, 6, 8, 12, 18};
+    int odd[5] = {3, 8, 11, 14, 16};
+
+    cout << "Search of 12 inside even: " << binarySearch(even, 6, 12) << endl;
+    cout << "Search of 4 inside odd: " << binarySearch(odd, 5, 4) << endl;
 }
