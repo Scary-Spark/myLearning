@@ -1,8 +1,10 @@
 #include <iostream>
+#include <algorithm>
 #include <vector>
 using namespace std;
 vector<int> findPosition(vector<int> nums, int target)
 {
+    sort(nums.begin(), nums.end());
     int i = 0, j = nums.size() - 1, pairSum = 0;
     vector<int> ans;
     while (i < j)
@@ -28,8 +30,8 @@ int main()
 {
     // TODO  pairSum optimal approach
     //! Only for sorted array
-    vector<int> nums = {2, 7, 11, 15};
-    int target = 18;
+    vector<int> nums = {3, 2, 4};
+    int target = 6;
     vector<int> ans = findPosition(nums, target);
     cout << "Index: ";
     for (int i : ans)
