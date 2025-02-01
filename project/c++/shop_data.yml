@@ -1,5 +1,0 @@
-cat1:
-  - name: item1
-    price: 324
-    stock: 25234
-    total_sold: 23
