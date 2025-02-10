@@ -1,28 +1,41 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
 using namespace std;
-vector<int> findBooksPrices(vector<int> prices)
+int findProfit(int buns, int beefs, int chickens, int hamPrice, int chiPrice)
 {
-    sort(prices.begin(), prices.end());
-    int i = 0;
-    int j = prices.size() - 1;
-    for (int i = 0; i < prices.size(); i++)
+    if (buns < 2)
+        return 0;
+    int profit = 0;
+    while (chickens > 0)
     {
+        if (buns < 2)
+            return profit;
+        profit += chiPrice;
+        chickens--;
+        buns -= 2;
     }
+    while (beefs > 0)
+    {
+        if (buns < 2)
+            return profit;
+        profit += hamPrice;
+        beefs--;
+        buns -= 2;
+    }
+
+    return profit;
 }
+
 int main()
 {
-    int testCase, n;
-    while (1)
+    int testCase;
+    cin >> testCase;
+    int buns, beefs, chickens, hamPrice, chiPrice;
+    for (int i = 1; i <= testCase; i++)
     {
-        vector<int> prices;
-        cin >> testCase;
-        for (int i = 1; i <= testCase; i++)
-        {
-            cin >> n;
-            prices.push_back(n);
-        }
-        vector<int> ans = findBooksPrices(prices);
+        cin >> buns >> beefs >> chickens;
+        cin >> hamPrice >> chiPrice;
+        int profit1 = findProfit(buns, beefs, chickens, hamPrice, chiPrice);
+        int profit2 = findProfit(buns, beefs, chickens, chiPrice, hamPrice);
+        cout << max(profit1, profit2) << endl;
     }
 }
