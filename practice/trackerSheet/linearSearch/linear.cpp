@@ -1,4 +1,4 @@
-// TODO  https://vjudge.net/contest/575132#problem/F
+// TODO  https://vjudge.net/contest/575132#problem/G
 
 #include <iostream>
 #include <vector>
@@ -6,7 +6,6 @@
 using namespace std;
 string findString(string s)
 {
-    int lastDigit = -1, newDigit = -1;
     int count1 = 0;
     bool zeroAppear = false;
     for (int i = 0; i < s.size(); i++)
