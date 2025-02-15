@@ -1,53 +1,35 @@
-// TODO https://vjudge.net/contest/575128#problem/D
-
 #include <iostream>
-#include <algorithm>
 using namespace std;
-int profit(int b, int p, int f, int h, int c)
+int findClick(int n, int x, int y, int d)
 {
-    // let h>c
-    int profit = 0;
-    if (h > c)
+    int temp = x;
+    int count1 = 0, count2 = 0;
+    int cycleCount = 1;
+    bool found = false;
+    while (1)
     {
-        while (p > 0)
+        if (temp <= 1 || temp >= n)
+            cycleCount++;
+        if (cycleCount >= 4)
+            break;
+        if (cycleCount % 2 != 0)
         {
-            if (b < 2)
-                return profit;
-            p--;
-            b -= 2;
-            profit += h;
+            temp += d;
         }
+        else if (cycleCount % 2 == 0)
+            temp -= d;
 
-        while (f > 0)
+        if (temp <= 1)
         {
-            if (b < 2)
-                return profit;
-            f--;
-            b -= 2;
-            profit += c;
+            temp = 1;
         }
+        else if (temp >= 1)
+        {
+            temp = n;
+        }
+        count1++;
     }
-    else
-    {
-        while (f > 0)
-        {
-            if (b < 2)
-                return profit;
-            f--;
-            b -= 2;
-            profit += c;
-        }
-        while (p > 0)
-        {
-            if (b < 2)
-                return profit;
-            p--;
-            b -= 2;
-            profit += h;
-        }
-    }
-
-    return profit;
+    return count1;
 }
 int main()
 {
@@ -55,11 +37,9 @@ int main()
     cin >> testCase;
     while (testCase > 0)
     {
-        int b, p, f;
-        int h, c;
-        cin >> b >> p >> f >> h >> c;
-        cout << profit(b, p, f, h, c) << endl;
-
+        int n, x, y, d;
+        cin >> n >> x >> y >> d;
+        cout << findClick(n, x, y, d) << endl;
         testCase--;
     }
 }
