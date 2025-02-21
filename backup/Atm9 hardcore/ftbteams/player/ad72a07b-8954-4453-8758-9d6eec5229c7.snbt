@@ -2,9 +2,7 @@
 	id: "ad72a07b-8954-4453-8758-9d6eec5229c7"
 	type: "player"
 	player_name: "Scary_Spark"
-	ranks: {
-		ad72a07b-8954-4453-8758-9d6eec5229c7: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Scary_Spark"
 		"ftbteams:description": ""
