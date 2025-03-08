@@ -1,0 +1,5 @@
+SmallFortRuinsJapanese,1015,1061,-678,-632
+AbandonedWoodTower,1093,1129,-643,-613
+RLCraft_SmallUndergroundSkeleton,1072,1080,-728,-720
+RLCraft_BasicSkeleton,1146,1146,-603,-603
+RLCraft_UndergroundRuin1,1140,1149,-606,-597

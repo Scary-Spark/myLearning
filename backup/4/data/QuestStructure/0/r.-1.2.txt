@@ -1,0 +1,2 @@
+ShrineSmallFire,-841,-831,1294,1304
+BigClockworkSite,-787,-742,1356,1391

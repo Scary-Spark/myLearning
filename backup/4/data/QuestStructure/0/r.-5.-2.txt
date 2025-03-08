@@ -1,0 +1,4 @@
+RLCraft_Lyquix,-2590,-2574,-1093,-1077
+RLCraft_DecentSkeleton,-2929,-2929,-1071,-1071
+RLCraft_UndergroundRuin2,-2931,-2924,-1076,-1066
+SmallAbandonedOutpost,-3001,-2971,-1532,-1510

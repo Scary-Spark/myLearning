@@ -1,0 +1,9 @@
+DinosaurSkeleton,-1537,-1528,-709,-663
+RLCraft_SmallUndergroundSkeleton,-1048,-1040,-527,-519
+DesertWatchtower,-1341,-1331,-637,-627
+RLCraft_DecentWitch,-1354,-1354,-580,-580
+RLCraft_UndergroundRuin2,-1356,-1349,-585,-575
+RLCraft_BasicZombie,-1433,-1433,-648,-648
+RLCraft_UndergroundRuin1,-1436,-1427,-651,-642
+RLCraft_DecentSpider,-1449,-1449,-550,-550
+RLCraft_UndergroundRuin2,-1454,-1444,-555,-548

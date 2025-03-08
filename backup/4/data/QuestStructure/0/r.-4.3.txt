@@ -1,0 +1,2 @@
+StoneBoulder,-2472,-2463,1926,1935
+P_VillageLibrary,-2554,-2538,1883,1902

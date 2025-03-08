@@ -1,0 +1,15 @@
+RLCraft_SmallUndergroundSkeleton,-1607,-1599,857,865
+ThreeTowers,-1772,-1741,526,558
+RLCraft_Vineyard,-1800,-1780,568,596
+VillageGuardTower,-1786,-1774,553,565
+P_Village2Story,-1799,-1786,541,547
+VillageForgeLarge,-1799,-1783,518,530
+SmallClockworkSite,-1790,-1768,520,539
+P_VillageFarmhouse,-1823,-1811,518,530
+VillageHouseRich,-1832,-1817,581,600
+RLCraft_DecentSpider,-1904,-1904,619,619
+RLCraft_UndergroundRuin2,-1909,-1899,617,624
+RLCraft_BasicSkeleton,-1881,-1881,761,761
+RLCraft_UndergroundRuin1,-1887,-1878,755,764
+RLCraft_DecentWitch,-1846,-1846,740,740
+RLCraft_UndergroundRuin3,-1849,-1841,734,742

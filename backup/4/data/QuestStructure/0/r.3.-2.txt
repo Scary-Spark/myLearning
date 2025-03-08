@@ -1,0 +1,8 @@
+RLCraft_DecentCaveSpider,2026,2026,-1493,-1493
+RLCraft_UndergroundRuin3,2023,2031,-1495,-1487
+RLCraft_DecentCaveSpider,1955,1955,-1323,-1323
+RLCraft_UndergroundRuin3,1950,1958,-1325,-1317
+StonePlantMound2,1887,1900,-1526,-1514
+StonePlantMound4,1878,1885,-1502,-1495
+StoneLeafMound,1866,1873,-1528,-1519
+WitchPillars,1535,1552,-1512,-1495

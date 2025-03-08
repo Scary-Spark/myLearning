@@ -1,0 +1,6 @@
+RLCraft_DecentSpider,1133,1133,-2933,-2933
+RLCraft_UndergroundRuin2,1131,1138,-2938,-2928
+RLCraft_BasicSkeleton,1512,1512,-2978,-2978
+RLCraft_UndergroundRuin1,1509,1518,-2981,-2972
+ShrineSmallFire,1485,1495,-2993,-2983
+RLCraft_BasicZombie,1471,1471,-2560,-2560

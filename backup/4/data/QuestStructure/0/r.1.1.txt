@@ -1,0 +1,12 @@
+RLCraft_SmallUndergroundSkeleton,512,520,885,893
+StonePlantMound2,1001,1013,782,795
+StonePlantMound3,967,976,798,809
+StonePlantMound4,941,948,766,773
+SmallOutpost,986,1016,728,750
+StonePlantMound3,882,891,819,830
+StoneBoulder,1009,1018,638,647
+StonePlantMound3,964,975,579,588
+StonePlantMound2,988,1000,564,577
+StoneBoulder,736,745,512,521
+StonePlantMound,780,785,510,515
+StonePlantBoulder,756,766,538,548

@@ -1,0 +1,5 @@
+DinosaurSkull,-1572,-1561,-937,-918
+FallenPalmTree,-1623,-1619,-572,-562
+ThreeTowers,-2024,-1992,-711,-680
+SmallClockworkSite,-1668,-1646,-974,-955
+JokerTower,-1899,-1891,-596,-588

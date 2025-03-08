@@ -1,0 +1,10 @@
+RLCraft_BasicSpider,-2175,-2175,-614,-614
+RLCraft_UndergroundRuin1,-2181,-2172,-617,-608
+RLCraft_SmallUndergroundSkeleton,-2145,-2137,-667,-659
+ShrineSmallFire,-2147,-2137,-731,-721
+FallenPalmTree,-2105,-2095,-694,-690
+RLCraft_DecentSkeleton,-2172,-2172,-752,-752
+RLCraft_UndergroundRuin3,-2174,-2166,-755,-747
+VeldtBath,-2384,-2333,-628,-560
+StoneLeafMound,-2296,-2287,-1014,-1007
+RLCraft_Lyquix,-2173,-2157,-1005,-989

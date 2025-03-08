@@ -1,0 +1,6 @@
+RLCraft_DecentWitch,1033,1033,2808,2808
+RLCraft_UndergroundRuin2,1028,1038,2806,2813
+RLCraft_BasicWitch,1083,1083,2827,2827
+RLCraft_UndergroundRuin1,1077,1086,2821,2830
+RLCraft_DecentWitch,1102,1102,2905,2905
+RLCraft_UndergroundRuin2,1097,1107,2903,2910

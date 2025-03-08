@@ -1,0 +1,6 @@
+AbandonedWoodTower,304,334,-2394,-2358
+RLCraft_BasicWitch,361,361,-2401,-2401
+RLCraft_UndergroundRuin1,358,367,-2404,-2395
+SmallWoodenCottage2,289,297,-2238,-2230
+ShrineSmallFire,500,510,-2272,-2262
+MeteorSite,469,484,-2217,-2187

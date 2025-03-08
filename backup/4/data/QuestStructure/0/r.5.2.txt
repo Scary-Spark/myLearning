@@ -1,0 +1,8 @@
+StonePlantMound2,2940,2952,1257,1270
+StonePlantMound3,2902,2911,1309,1320
+RLCraft_PlainsCamp,2792,2838,1211,1250
+StonePlantMound,2975,2980,1305,1310
+StonePlantMound4,2965,2972,1334,1341
+StonePlantMound2,3020,3033,1114,1126
+ClayWaterMound,3043,3051,1129,1136
+RLCraft_SmallUndergroundSkeleton,2945,2953,1056,1064

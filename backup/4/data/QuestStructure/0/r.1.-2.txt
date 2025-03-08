@@ -1,0 +1,4 @@
+RLCraft_DecentSpider,763,763,-1303,-1303
+RLCraft_UndergroundRuin2,758,768,-1308,-1301
+UndergroundTreeoid,753,779,-1298,-1275
+SmallWoodenCottage,792,800,-1205,-1194

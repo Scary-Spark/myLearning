@@ -1,0 +1,3 @@
+SpiderPit,-289,-280,2594,2604
+RLCraft_SmallUndergroundSkeleton,502,510,2842,2850
+RLCraft_LargeUndergroundTown,-27,110,2540,2653

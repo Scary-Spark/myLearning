@@ -1,0 +1,5 @@
+RLCraft_SmallUndergroundSkeleton,-2937,-2929,676,684
+VillageWoodMill,-2872,-2859,726,742
+P_Village2Story,-2842,-2836,687,700
+VillageMarketplace,-2842,-2828,730,744
+P_VillageInn,-2828,-2817,756,765

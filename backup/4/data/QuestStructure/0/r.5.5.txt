@@ -1,0 +1,3 @@
+RLCraft_BasicSkeleton,2773,2773,2858,2858
+RLCraft_UndergroundRuin1,2770,2779,2852,2861
+RLCraft_SmallUndergroundSkeleton,2862,2870,2959,2967

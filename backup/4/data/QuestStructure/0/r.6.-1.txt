@@ -1,0 +1,7 @@
+StonePlantMound4,3078,3085,-778,-771
+StoneBoulder,3095,3104,-917,-908
+RLCraft_DecentZombie,3163,3163,-875,-875
+RLCraft_UndergroundRuin2,3158,3165,-880,-870
+UndergroundCultChamber,3101,3143,-954,-922
+StoneBoulder,3101,3110,-1008,-999
+P_VillageLibrary,3203,3222,-1029,-1013

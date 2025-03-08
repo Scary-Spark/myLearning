@@ -1,0 +1,4 @@
+MeteorSite,1805,1835,2345,2360
+DinosaurSkull,1728,1747,2325,2336
+RLCraft_SmallUndergroundSkeleton,1835,1843,2298,2306
+JokerTower,1880,1888,2480,2488

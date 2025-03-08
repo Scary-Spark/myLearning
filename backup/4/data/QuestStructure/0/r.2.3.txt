@@ -1,0 +1,4 @@
+RLCraft_BasicZombie,1126,1126,1581,1581
+RLCraft_UndergroundRuin1,1123,1132,1575,1584
+StonePlantMound,1027,1032,1731,1736
+StonePlantMound2,1066,1079,1739,1751

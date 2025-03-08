@@ -1,0 +1,4 @@
+PeacefulCrypt,2523,2547,2444,2460
+BlazeSpawnerCrystal,2449,2455,2291,2297
+RLCraft_BasicSpider,2464,2464,2501,2501
+RLCraft_UndergroundRuin1,2461,2470,2498,2507

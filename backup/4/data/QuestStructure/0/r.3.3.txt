@@ -1,0 +1,5 @@
+RLCraft_SmallUndergroundSkeleton,1900,1908,1780,1788
+RLCraft_BasicWitch,1853,1853,1734,1734
+RLCraft_UndergroundRuin1,1847,1856,1728,1737
+RLCraft_BasicZombie,1841,1841,1646,1646
+RLCraft_UndergroundRuin1,1838,1847,1640,1649

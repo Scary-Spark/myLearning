@@ -1,0 +1,6 @@
+P_WizardTower,-937,-907,-2604,-2574
+RLCraft_SmallUndergroundSkeleton,-1002,-994,-2692,-2684
+RLCraft_DecentCaveSpider,-749,-749,-2697,-2697
+RLCraft_UndergroundRuin2,-754,-744,-2702,-2695
+RLCraft_BasicCaveSpider,-1013,-1013,-2747,-2747
+RLCraft_UndergroundRuin1,-1019,-1010,-2750,-2741

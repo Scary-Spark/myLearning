@@ -1,0 +1,6 @@
+StonePlantMound1,2824,2830,515,521
+RLCraft_SmallUndergroundSkeleton,2750,2758,570,578
+WitchPillars,2910,2927,576,593
+BlazeSpawnerCrystal,2737,2743,524,530
+RLCraft_SmallUndergroundSkeleton,2817,2825,610,618
+PeacefulCrypt,2908,2924,939,963

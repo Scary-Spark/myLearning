@@ -1,0 +1,10 @@
+ShrineSmallFire,263,273,2336,2346
+RLCraft_BasicZombie,314,314,2434,2434
+RLCraft_UndergroundRuin1,308,317,2431,2440
+RLCraft_PlainsCampRuined,361,406,2387,2426
+DinosaurSkull,272,283,2287,2306
+ShrineSmallFire,-465,-455,2245,2255
+SmallClockworkSite,-415,-393,2163,2182
+RLCraft_DecentWitch,-270,-270,2071,2071
+RLCraft_UndergroundRuin2,-275,-268,2066,2076
+RLCraft_DesertTown,58,124,2396,2462

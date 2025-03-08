@@ -1,0 +1,4 @@
+RLCraft_DecentSkeleton,2174,2174,-734,-734
+RLCraft_UndergroundRuin2,2172,2179,-739,-729
+StoneLeafMound,2212,2221,-690,-683
+BrickHenge,2186,2202,-651,-635

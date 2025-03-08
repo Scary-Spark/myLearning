@@ -1,0 +1,5 @@
+DinosaurSkull,-1853,-1834,-2459,-2448
+RLCraft_BasicSkeleton,-1742,-1742,-2458,-2458
+RLCraft_UndergroundRuin1,-1745,-1736,-2464,-2455
+UndergroundCultChamber,-1735,-1693,-2500,-2468
+PeacefulCrypt,-1637,-1621,-2557,-2533

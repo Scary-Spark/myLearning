@@ -1,0 +1,12 @@
+DinosaurSkeleton,-1088,-1079,2210,2256
+SmallAbandonedMine,-1147,-1122,2085,2100
+DinosaurSkeleton,-1055,-1046,2134,2180
+RLCraft_SmallUndergroundSkeleton,-1203,-1195,2282,2290
+DinosaurSkeleton,-1270,-1261,2232,2278
+StoneBoulder,-1187,-1178,2330,2339
+RLCraft_BasicSkeleton,-1259,-1259,2324,2324
+RLCraft_UndergroundRuin1,-1265,-1256,2318,2327
+RLCraft_BasicZombie,-1112,-1112,2555,2555
+RLCraft_UndergroundRuin1,-1115,-1106,2549,2558
+StoneBoulder,-1070,-1061,2402,2411
+DinosaurSkeleton,-1085,-1076,2326,2372

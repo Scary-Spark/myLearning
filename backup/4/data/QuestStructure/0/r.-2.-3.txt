@@ -1,0 +1,16 @@
+VillageMarketplace,-1157,-1143,-1782,-1768
+VillageLargeLibrary,-1193,-1173,-1747,-1728
+P_VillageLibrary,-1157,-1141,-1804,-1785
+VillageWoodMill,-1191,-1178,-1770,-1754
+P_Village2Story,-1194,-1188,-1798,-1785
+VillageForgeLarge,-1187,-1171,-1799,-1787
+SeasonsGreenhouse,-1225,-1215,-1799,-1787
+P_VillageFarmhouse,-1230,-1218,-1747,-1735
+ShrineSmallFire,-1300,-1290,-1749,-1739
+DinosaurSkeleton,-1493,-1447,-1804,-1795
+RLCraft_BasicCaveSpider,-1385,-1385,-1685,-1685
+RLCraft_UndergroundRuin1,-1391,-1382,-1688,-1679
+RLCraft_BasicWitch,-1333,-1333,-1624,-1624
+RLCraft_UndergroundRuin1,-1336,-1327,-1627,-1618
+RLCraft_BasicZombie,-1381,-1381,-1642,-1642
+RLCraft_UndergroundRuin1,-1387,-1378,-1648,-1639

@@ -1,0 +1,9 @@
+RLCraft_DecentCaveSpider,-858,-858,-550,-550
+DinosaurSkull,-890,-871,-546,-535
+RLCraft_UndergroundRuin3,-860,-852,-553,-545
+SmallWoodenCottage2,-898,-890,-533,-525
+IceThorn,-913,-887,-562,-547
+RLCraft_SmallUndergroundSkeleton,-907,-899,-609,-601
+ChurchGraveyardRuins,-965,-922,-652,-605
+SmallOutpost,-785,-763,-850,-820
+AbandonedWoodTower,-562,-526,-660,-630

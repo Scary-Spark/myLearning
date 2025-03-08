@@ -1,0 +1,9 @@
+StonePlantMound4,987,994,1718,1725
+DinosaurSkeleton,971,1017,1643,1652
+MeteorSite,903,918,1676,1706
+StonePlantMound2,752,765,1722,1734
+MeteorSite,898,913,1748,1778
+FallenPalmTree,901,911,1629,1633
+StonePlantMound3,755,766,1788,1797
+StonePlantBoulder,970,980,1738,1748
+RLCraft_SmallUndergroundSkeleton,788,796,1595,1603

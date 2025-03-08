@@ -1,0 +1,5 @@
+StoneLeafMound,-2557,-2548,2264,2271
+RLCraft_SmallUndergroundSkeleton,-2555,-2547,2297,2305
+StonePlantMound1,-2465,-2459,2427,2433
+P_SpookyHouse,-2110,-2084,2332,2372
+RLCraft_SmallUndergroundSkeleton,-2052,-2044,2445,2453

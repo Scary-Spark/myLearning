@@ -1,0 +1,8 @@
+DinosaurSkull,908,919,2446,2465
+RLCraft_DecentWitch,798,798,2469,2469
+RLCraft_UndergroundRuin3,795,803,2463,2471
+RLCraft_SmallUndergroundSkeleton,841,849,2404,2412
+AbandonedWoodTower,922,958,2514,2544
+RLCraft_SmallUndergroundSkeleton,784,792,2449,2457
+RLCraft_BasicZombie,699,699,2486,2486
+RLCraft_UndergroundRuin1,696,705,2480,2489

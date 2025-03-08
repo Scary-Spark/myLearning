@@ -1,0 +1,5 @@
+StonePlantMound4,12,19,1541,1548
+RLCraft_SmallUndergroundSkeleton,171,179,1773,1781
+DinosaurSkull,122,141,1755,1766
+RLCraft_DecentZombie,109,109,1887,1887
+RLCraft_UndergroundRuin3,103,111,1884,1892

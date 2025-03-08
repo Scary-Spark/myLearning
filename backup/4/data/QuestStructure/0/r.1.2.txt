@@ -1,0 +1,6 @@
+RLCraft_DecentSkeleton,983,983,1364,1364
+RLCraft_UndergroundRuin2,978,988,1359,1366
+BigClockworkSite,931,976,1422,1457
+DesertBeacon,926,932,1376,1382
+DesertBeacon,804,810,1514,1520
+RLCraft_SmallUndergroundSkeleton,749,757,1488,1496

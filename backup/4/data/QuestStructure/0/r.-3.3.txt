@@ -1,0 +1,11 @@
+SmallAbandonedOutpost,-1556,-1534,1835,1865
+PeacefulCrypt,-1641,-1617,1808,1824
+VillageTriplets,-1690,-1676,1867,1881
+RLCraft_DecentSkeleton,-1671,-1671,1834,1834
+RLCraft_UndergroundRuin2,-1676,-1669,1829,1839
+DinosaurSkull,-1565,-1546,1929,1940
+VillageWoodMill,-1690,-1674,1848,1861
+P_WitchDungeon,-1585,-1551,1941,1958
+P_VillageLibrary,-1690,-1674,1808,1827
+StoneBoulder,-1638,-1629,1738,1747
+StonePlantMound4,-1585,-1578,1738,1745

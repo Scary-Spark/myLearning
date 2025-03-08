@@ -1,0 +1,5 @@
+RLCraft_4Towers,-1278,-1226,827,887
+RLCraft_SmallUndergroundSkeleton,-1342,-1334,719,727
+SmallClockworkSite,-1384,-1365,720,742
+RLCraft_SmallUndergroundSkeleton,-1236,-1228,922,930
+RLCraft_SmallUndergroundSkeleton,-1175,-1167,940,948

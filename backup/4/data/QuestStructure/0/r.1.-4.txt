@@ -1,0 +1,9 @@
+RLCraft_SmallUndergroundSkeleton,562,570,-2531,-2523
+DinosaurSkull,600,619,-2261,-2250
+RLCraft_DecentZombie,602,602,-2241,-2241
+RLCraft_UndergroundRuin2,597,607,-2243,-2236
+BigClockworkSite,510,555,-2180,-2145
+SmallAbandonedMine,881,906,-2287,-2272
+RLCraft_SmallUndergroundSkeleton,904,912,-2263,-2255
+RLCraft_SmallUndergroundSkeleton,933,941,-2238,-2230
+AbandonedWoodTower,931,961,-2215,-2179

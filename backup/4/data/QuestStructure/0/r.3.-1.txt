@@ -1,0 +1,6 @@
+StonePlantMound,1852,1857,-829,-824
+StonePlantMound2,1827,1839,-872,-859
+StonePlantMound4,1858,1865,-788,-781
+ClayWaterMound1,1879,1889,-817,-806
+StonePlantMound1,1899,1905,-867,-861
+ElvenPond,1904,1933,-817,-787

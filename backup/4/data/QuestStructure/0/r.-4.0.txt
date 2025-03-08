@@ -1,0 +1,9 @@
+StonePlantMound3,-2109,-2100,249,260
+StonePlantMound1,-2113,-2107,293,299
+StoneLeafMound,-2067,-2058,276,283
+RLCraft_SmallUndergroundSkeleton,-2175,-2167,184,192
+PeacefulCrypt,-2217,-2193,302,318
+WoodThornBig,-2134,-2121,374,387
+RLCraft_DecentZombie,-2081,-2081,361,361
+RLCraft_UndergroundRuin2,-2086,-2076,356,363
+ElvenPond,-2555,-2526,-385,-355

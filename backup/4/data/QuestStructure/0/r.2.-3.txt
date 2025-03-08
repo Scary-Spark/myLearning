@@ -1,0 +1,12 @@
+RLCraft_SmallUndergroundSkeleton,1046,1054,-1822,-1814
+RLCraft_SmallUndergroundSkeleton,1098,1106,-1823,-1815
+SmallWoodenCottage2,1096,1104,-1775,-1767
+RLCraft_DecentSkeleton,1148,1148,-1895,-1895
+RLCraft_UndergroundRuin3,1143,1151,-1901,-1893
+RLCraft_DecentCaveSpider,1071,1071,-1963,-1963
+RLCraft_UndergroundRuin3,1065,1073,-1968,-1960
+RLCraft_SmallUndergroundSkeleton,1097,1105,-2006,-1998
+P_Crater,1155,1231,-1955,-1872
+RLCraft_BasicWitch,1196,1196,-1827,-1827
+RLCraft_UndergroundRuin1,1193,1202,-1833,-1824
+StonePlantMound3,1527,1538,-1882,-1873

@@ -1,0 +1,16 @@
+VillageHouseRich,1825,1840,-2490,-2471
+P_VillageFarmhouse,1852,1864,-2490,-2478
+P_VillageLibrary,1876,1892,-2487,-2468
+SeasonsGreenhouse,1855,1865,-2462,-2450
+RLCraft_PlainsCamp,1813,1859,-2336,-2297
+SmallClockworkSite,1882,1901,-2203,-2181
+RLCraft_SmallUndergroundSkeleton,1963,1971,-2357,-2349
+SpiderPit,1662,1672,-2509,-2500
+RLCraft_DecentZombie,1568,1568,-2475,-2475
+RLCraft_UndergroundRuin2,1563,1573,-2480,-2473
+StonePlantMound1,2020,2026,-2498,-2492
+BigClockworkSite,1705,1750,-2180,-2145
+DinosaurSkeleton,1984,2030,-2058,-2049
+RLCraft_DecentSpider,1890,1890,-2076,-2076
+RLCraft_UndergroundRuin2,1885,1895,-2081,-2074
+SmallWoodenCottage2,1707,1715,-2072,-2064

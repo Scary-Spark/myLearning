@@ -1,0 +1,10 @@
+RLCraft_SmallUndergroundSkeleton,-2524,-2516,-1439,-1431
+RLCraft_DecentSkeleton,-2174,-2174,-1293,-1293
+RLCraft_UndergroundRuin3,-2177,-2169,-1295,-1287
+RLCraft_SmallUndergroundSkeleton,-2143,-2135,-1362,-1354
+MonolythHoly,-2205,-2191,-1407,-1393
+RLCraft_SmallUndergroundSkeleton,-2135,-2127,-1130,-1122
+PirateChest,-2280,-2276,-1192,-1188
+MeteorSite,-2304,-2274,-1242,-1227
+RLCraft_DecentSpider,-2300,-2300,-1143,-1143
+RLCraft_UndergroundRuin2,-2305,-2295,-1148,-1141

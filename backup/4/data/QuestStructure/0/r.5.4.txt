@@ -1,0 +1,3 @@
+SmallAbandonedMine,2573,2598,2375,2390
+RLCraft_DecentCaveSpider,3046,3046,2469,2469
+RLCraft_UndergroundRuin2,3041,3048,2464,2474

@@ -1,0 +1,9 @@
+RLCraft_DecentSkeleton,2872,2872,-2236,-2236
+RLCraft_UndergroundRuin2,2870,2877,-2241,-2231
+UndergroundCrypt,2876,2904,-2160,-2146
+StonePlantMound3,2590,2601,-2422,-2413
+StoneLeafMound,2661,2670,-2403,-2396
+DinosaurSkeleton,2629,2638,-2346,-2300
+StonePlantMound2,2656,2668,-2503,-2490
+RLCraft_DecentCaveSpider,2774,2774,-2416,-2416
+RLCraft_UndergroundRuin2,2769,2779,-2418,-2411

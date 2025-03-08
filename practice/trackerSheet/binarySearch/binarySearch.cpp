@@ -2,44 +2,59 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-int findPoint(vector<int> nums, int lp, int up)
+void findSum(vector<int> prices, int total)
 {
-    int ans;
+    sort(prices.begin(), prices.end());
+    int start = 0,
+        end = prices.size() - 1;
 
-    int start = 1;
-    int end = nums.size() - 1;
-    int mid = end + (end - start) / 2;
+    int p1, p2;
 
     while (start <= end)
     {
-        if (nums.at(start - 1) <= lp && lp <= nums.at(start))
+        int sum = prices.at(start) + prices.at(end);
+
+        if (sum == total)
         {
+            int p1 = prices.at(start);
+            int p2 = prices.at(end);
+            if (start + 1 <= end - 1)
+            {
+                start++;
+                end--;
+            }
+            else
+                break;
+        }
+        else if (sum > total)
+        {
+            end--;
+        }
+        else if (sum < total)
+        {
+            start++;
         }
     }
+    cout << "Peter should buy books whose prices are " << p1 << " and " << p2 << ".\n"
+         << endl;
 }
 int main()
 {
-    int testCase;
-    cin >> testCase;
-    for (int i = 1; i <= testCase; i++)
-    {
-        int a, b;
-        cin >> a >> b;
-        vector<int> nums;
 
-        for (int j = 0; j < a; j++)
+    while (1)
+    {
+        int total;
+        cin >> total;
+        vector<int> prices;
+        for (int i = 0; i < total; i++)
         {
             int n;
             cin >> n;
-            nums.push_back(n);
+            prices.push_back(n);
         }
+        int sumPrice;
+        cin >> sumPrice;
 
-        for (int j = 0; j < b; j++)
-        {
-            int lowerPoint, upperPoint;
-            cin >> lowerPoint >> upperPoint;
-            cout << "Case " << i << ":" << endl
-                 << findPoint(nums, lowerPoint, upperPoint) << endl;
-        }
+        findSum(prices, sumPrice);
     }
 }

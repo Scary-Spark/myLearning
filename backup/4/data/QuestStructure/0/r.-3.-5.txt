@@ -1,0 +1,3 @@
+DesertHut,-1768,-1758,-2599,-2590
+SmallClockworkSite,-1785,-1766,-2710,-2688
+RLCraft_SmallUndergroundSkeleton,-1846,-1838,-2626,-2618

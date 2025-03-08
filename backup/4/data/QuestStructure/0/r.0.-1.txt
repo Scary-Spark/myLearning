@@ -1,0 +1,2 @@
+SmallWoodenCottage,-419,-408,-641,-633
+RLCraft_PlainsCamp,-501,-462,-537,-491

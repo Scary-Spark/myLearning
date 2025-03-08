@@ -1,0 +1,13 @@
+P_WizardTower,1002,1032,-664,-634
+RLCraft_PlainsCamp,957,1003,-710,-671
+RLCraft_SmallUndergroundSkeleton,943,951,-737,-729
+RLCraft_SmallUndergroundSkeleton,962,970,-619,-611
+BlazeSpawnerCrystal,941,947,-548,-542
+IceThorn2,906,918,-701,-691
+RLCraft_DecentZombie,879,879,-784,-784
+RLCraft_UndergroundRuin3,874,882,-790,-782
+SmallWoodenCottage1,651,657,-613,-602
+IceThorn3,702,716,-772,-758
+RLCraft_DecentSkeleton,613,613,-740,-740
+RLCraft_UndergroundRuin3,610,618,-746,-738
+RLCraft_SmallUndergroundSkeleton,537,545,-795,-787
