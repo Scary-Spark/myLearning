@@ -1,60 +1,36 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <climits>
 using namespace std;
-void findSum(vector<int> prices, int total)
+int findMinK(vector<int> nums, int k)
 {
-    sort(prices.begin(), prices.end());
-    int start = 0,
-        end = prices.size() - 1;
-
-    int p1, p2;
-
-    while (start <= end)
-    {
-        int sum = prices.at(start) + prices.at(end);
-
-        if (sum == total)
-        {
-            int p1 = prices.at(start);
-            int p2 = prices.at(end);
-            if (start + 1 <= end - 1)
-            {
-                start++;
-                end--;
-            }
-            else
-                break;
-        }
-        else if (sum > total)
-        {
-            end--;
-        }
-        else if (sum < total)
-        {
-            start++;
-        }
-    }
-    cout << "Peter should buy books whose prices are " << p1 << " and " << p2 << ".\n"
-         << endl;
+    int start = 0;
+    int end = nums.size() - 1;
+    int mid = start + (end - start) / 2;
+    return 0;
 }
 int main()
 {
-
-    while (1)
+    int testCase;
+    cin >> testCase;
+    for (int i = 1; i <= testCase; i++)
     {
-        int total;
-        cin >> total;
-        vector<int> prices;
-        for (int i = 0; i < total; i++)
+        int ans;
+        int size;
+        cin >> size;
+        vector<int> nums;
+        int n;
+        cin >> n;
+        nums.push_back(n);
+        int maxK = INT_MIN;
+        for (int i = 1; i < size; i++)
         {
-            int n;
             cin >> n;
-            prices.push_back(n);
+            nums.push_back(n);
+            maxK = max(maxK, nums.at(i) - nums.at(i - 1));
         }
-        int sumPrice;
-        cin >> sumPrice;
-
-        findSum(prices, sumPrice);
+        ans = findMinK(nums, maxK);
+        cout << "Case " << i << ": " << maxK << endl;
     }
 }
