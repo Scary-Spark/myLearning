@@ -2,64 +2,37 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-int findPosition(vector<int> nums, int a, int b)
+int findTotal(vector<int> &nums, int k)
 {
-    int start = 0, end = nums.size() - 1;
-    int lowerBound, upperBound;
+    sort(nums.begin(), nums.end());
 
+    int start = 0, end = nums.at(nums.size() - 1);
+    int ans = -1;
     while (start <= end)
     {
         int mid = start + (end - start) / 2;
 
-        if (nums.at(mid) == a)
+        if (isVaid(nums, mid, k))
         {
-            lowerBound = mid;
-            break;
+            ans = mid;
+            end = mid - 1;
         }
-
-        if (a > nums.at(mid - 1) && a < nums.at(mid))
-
-            if (a < nums.at(mid))
-            {
-                end = mid - 1;
-            }
-            else if (a > nums.at(mid))
-            {
-                start = mid + 1;
-            }
+        else
+        {
+            start = mid + 1;
+        }
     }
-
-    return -1;
 }
 int main()
 {
-    int testCase;
-    cin >> testCase;
-
-    for (int i = 1; i <= testCase; i++)
+    int n, k;
+    cin >> n >> k;
+    vector<int> nums;
+    for (int i = 0; i < n; i++)
     {
-        int size, segments;
-        vector<int> nums;
-        cin >> size >> segments;
-        for (int j = 0; j < size; j++)
-        {
-            int n;
-            cin >> n;
-            nums.push_back(n);
-        }
-
-        bool first = true;
-
-        for (int j = 0; j < segments; j++)
-        {
-            int a, b;
-            cin >> a >> b;
-            if (first)
-            {
-                cout << "Case " << i << ": " << endl;
-                first = false;
-            }
-            cout << findPosition(nums, a, b) << endl;
-        }
+        int x;
+        cin >> x;
+        nums.push_back(x);
     }
+    cout << findTotal(nums, k) << endl;
 }
