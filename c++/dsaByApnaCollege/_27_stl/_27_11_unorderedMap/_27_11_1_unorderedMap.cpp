@@ -15,6 +15,7 @@ int main()
     */
 
     unordered_map<string, int> m; // unlike map, it's randomly insert key's position
+    // time complexity of insert, erase, count: O(1)
 
     // for insert or change the value: map[key]=value;
     m["tv"] = 100;

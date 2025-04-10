@@ -1,14 +1,25 @@
 #include <iostream>
+#include <string>
 #include <algorithm>
-#include <vector>
 using namespace std;
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    string s;
+    cin >> s;
+    sort(s.rbegin(), s.rend());
+    int i = 1;
+    while (i < s.length())
     {
-        string s, c;
-        cin >> s >> c;
+        if (s.at(i) == s.at(i - 1))
+        {
+            if (s.at(i) != 'z')
+            {
+                s.at(i - 1) = s.at(i) + 1;
+                s.erase(i, 1);
+                continue;
+            }
         }
+        i++;
+    }
+    cout << s << endl;
 }
