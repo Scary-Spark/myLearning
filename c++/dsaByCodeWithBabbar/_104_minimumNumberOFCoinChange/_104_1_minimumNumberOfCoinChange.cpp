@@ -12,9 +12,12 @@ int minimumElements(vector<int> &coins, int amount)
     int count = 0;
     while (tt > 0 && i < coins.size())
     {
+        if (tt < coins.at(i))
+        {
+            i++;
+            continue;
+        }
         int temp = tt / coins.at(i);
-        if (temp == 0 && i == coins.size() - 1)
-            break;
         count += temp;
         tt = tt - (coins.at(i) * temp);
         i++;

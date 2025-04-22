@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    double digit = 2;
-    int power = -2;
+    double digit = 3;
+    int power = 2;
     double ans = 1;
 
     if (power < 0)
