@@ -11,3 +11,6 @@ print(f"Price of that item is: {price}")
 
 isStudent = True
 print(f"You are a student: {isStudent}")
+
+a, b, c, d, e = 1, 2, 3, 4, 5
+print(a, b, c, d, e)
