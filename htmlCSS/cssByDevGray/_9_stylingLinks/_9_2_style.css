@@ -1,0 +1,32 @@
+body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+/*
+    specificity (highet to lower):
+        active
+        hover
+        visited
+        a
+*/
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rebeccapurple;
+}
+
+a:visited {
+  color: rgb(0, 255, 30);
+}
+
+a:hover {
+  color: red;
+  opacity: 0.7;
+  background-color: green;
+}
+
+a:active {
+  color: aqua;
+}

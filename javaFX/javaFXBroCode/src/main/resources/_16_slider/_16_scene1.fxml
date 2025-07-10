@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_16_slider._16_2_controller">
+   <children>
+      <Slider fx:id="slider" layoutX="455.0" layoutY="17.0" majorTickUnit="10.0" orientation="VERTICAL" prefHeight="396.0" prefWidth="16.0" showTickLabels="true" showTickMarks="true" value="50.0" />
+      <Label fx:id="label" alignment="CENTER" layoutX="106.0" layoutY="159.0" text="Temperature" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

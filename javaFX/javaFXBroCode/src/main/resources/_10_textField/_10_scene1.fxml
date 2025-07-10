@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_10_textField._10_2_controller">
+   <children>
+      <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="1.0" layoutY="101.0" prefHeight="58.0" prefWidth="602.0" text="Welcome" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label fx:id="ageLabel" layoutX="205.0" layoutY="200.0" text="Enter your age">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField" layoutX="157.0" layoutY="247.0" prefHeight="26.0" prefWidth="304.0" promptText="enter age in here">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="loginButton" layoutX="256.0" layoutY="343.0" mnemonicParsing="false" onAction="#login" text="Login">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

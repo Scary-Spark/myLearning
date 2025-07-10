@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_17_progressBar._17_2_controller">
+   <children>
+      <ProgressBar fx:id="progressBar" layoutX="152.0" layoutY="232.0" prefHeight="30.0" prefWidth="297.0" progress="0.51" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="138.0" prefHeight="44.0" prefWidth="587.0" text="Enter progress" textAlignment="CENTER">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="buton" layoutX="249.0" layoutY="313.0" mnemonicParsing="false" onAction="#progressShow" text="Select">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
