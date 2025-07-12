@@ -1,0 +1,28 @@
+/*
+    Relative units:
+        %: it is often used to define in a size as relative to an element's parent
+
+        em: font size of the parent, in the case of typographical properties the font-size, and font-size of the element itself, in the case of other properties like width
+
+        rem: font-size of the root element
+
+        vh: relative to 1% viewport height
+        
+        vw: relative to 1% viewport width
+*/
+
+#box1 {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+  font-size: 10px;
+}
+
+#box2 {
+  height: 50px;
+  width: 50%;
+  background-color: yellow;
+  margin-left: 10px;
+  font-size: 2em; /*double of box1. ie 20px */
+  width: 5em; /*this time it will be (font-size iteself * 5) = 2em*5=20px*5=100px  */
+}
