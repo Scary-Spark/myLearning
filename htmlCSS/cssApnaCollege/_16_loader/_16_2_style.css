@@ -1,0 +1,17 @@
+.loader {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid #ffe66d;
+  border-top: 10px solid #4ecdc4;
+  animation-name: spinAnimation 3s ease-in 1s infinite normal;
+}
+
+@keyframes spinAnimation {
+  form {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

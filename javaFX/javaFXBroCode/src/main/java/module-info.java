@@ -48,4 +48,25 @@ module com.example.javafxbrocode {
 
     opens _17_progressBar to javafx.fxml;
     exports _17_progressBar;
+
+    opens _18_spinner to javafx.fxml;
+    exports _18_spinner;
+
+    opens _19_listView to javafx.fxml;
+    exports _19_listView;
+
+    opens _20_treeView to javafx.fxml;
+    exports _20_treeView;
+
+    opens _21_menuBar to javafx.fxml;
+    exports _21_menuBar;
+
+    opens _22_flowPane to javafx.fxml;
+    exports _22_flowPane;
+
+    opens _23_keyEvent to javafx.fxml;
+    exports _23_keyEvent;
+
+    opens _24_animation to javafx.fxml;
+    exports _24_animation;
 }

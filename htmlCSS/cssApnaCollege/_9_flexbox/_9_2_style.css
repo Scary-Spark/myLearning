@@ -1,0 +1,51 @@
+/*
+    FlexBox
+    it is one dimensional layout method
+    for arranging items in rows or columns
+*/
+
+body {
+  text-align: center;
+}
+
+div {
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#container {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* align-content: start; */
+}
+
+#box1 {
+  background-color: aqua;
+}
+
+#box2 {
+  background-color: pink;
+}
+
+#box3 {
+  background-color: darkkhaki;
+}
+
+#box4 {
+  background-color: indianred;
+}
+
+#box5 {
+  background-color: slateblue;
+  align-self: flex-end;
+}
