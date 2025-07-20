@@ -5,7 +5,14 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="alien" class="_7_springFramework._7_1_basic._7_1_2_Alien">
+        <property name="age" value="21"></property>
 
+        <constructor-arg value="21"/>
+
+        <property name="laptop" ref="laptop1"></property>
+    </bean>
+
+    <bean id="laptop1" class="_7_springFramework._7_1_basic._7_1_3_Laptop">
     </bean>
 
 </beans>
