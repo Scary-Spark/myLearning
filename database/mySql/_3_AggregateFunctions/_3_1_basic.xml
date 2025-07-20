@@ -1,9 +1,0 @@
-# aggregate functions
-# COUNT()
-# MAX()
-# MIN()
-# SUM()
-# AVG()
-
-SELECT MAX(marks) FROM student;
-SELECT AVG(marks) FROM studnet;
