@@ -1,0 +1,8 @@
+# add a default value for column
+CREATE TABLE products (
+	price DECIMAL(4,2) DEFAULT 0.0
+);
+
+# for existing table
+ALTER TABLE products
+ALTER price SET DEFAULT 0.0;

@@ -1,0 +1,52 @@
+# create tables
+CREATE TABLE IF NOT EXISTS employees (
+	employee_id INT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    hourly_pay DECIMAL(5,2),
+    hire_date DATE
+);
+
+# print the data
+SELECT * FROM employees;
+
+# rename a table
+RENAME TABLE employees To workers;
+
+# drop a table
+DROP TABLE employees
+
+# add new column
+ALTER TABLE employees
+ADD phone_number VARCHAR(15);
+
+# change a column name
+ALTER TABLE employees
+RENAME COLUMN phone_number to email;
+
+# change datatype
+ALTER TABLE employees
+MODIFY COLUMN email VARCHAR(100);
+
+# move a column
+ALTER TABLE employees
+MODIFY email VARCHAR(100)
+AFTER last_name;
+
+
+# drop a column
+ALTER TABLE employees
+DROP COLUMN email;
+
+# insert rows
+INSERT INTO employees
+VALUES (1,"Eugene","Crabs",25.50,"2023-01-02"),
+	   (2,"Squidward","Tentacles",15,"2023-01-02"),
+       (3,"Spongbob","Squrepants",12.59,"2024-02-12"),
+       (4,"Patrick","Star",12.50,"2021-12-12"),
+       (5,"Sandy","Cheeks",17.24,"2023-01-05")
+;
+
+# note
+INSERT INTO employees (employee_id, first_name, last_name)
+VALUES (6,"Sheldon","Plankton");

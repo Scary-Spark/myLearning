@@ -1,0 +1,13 @@
+# A JOIN is used in MySQL to combine data 
+# from two or more tables based on a related column.
+
+# create inner join
+SELECT * 
+FROM transactions INNER JOIN customers
+ON transactions.customer_id=customers.customer_id;
+
+
+# also can be write as
+SELECT transaction_id, amount, first_name 
+FROM transactions INNER JOIN customers
+ON transactions.customer_id=customers.customer_id;

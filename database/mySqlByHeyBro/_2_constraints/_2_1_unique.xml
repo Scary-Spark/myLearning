@@ -1,0 +1,11 @@
+# make any colum unique
+CREATE TABLE products (
+	product_id INT UNIQUE,
+    product_name VARCHAR(50),
+    price DECIMAL(4,2)
+);
+
+# change existing table
+ALTER TABLE products
+ADD CONSTRAINT
+UNIQUE(product_name);

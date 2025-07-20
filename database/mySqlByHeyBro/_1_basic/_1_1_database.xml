@@ -1,0 +1,15 @@
+# CREATE DATABASE
+CREATE DATABASE IF NOT EXISTS heyBroDatabase;
+
+# delete a database
+DROP DATABASE heyBroDatabase;
+
+# use a database
+USE heyBroDatabase;
+
+# make a database read only
+ALTER DATABASE heyBroDatabase READ ONLY = 0;
+
+# disable safe mode
+SET SQL_SAFE_UPDATES = 0;
+

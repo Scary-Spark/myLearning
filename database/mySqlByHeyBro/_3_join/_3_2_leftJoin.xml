@@ -1,0 +1,10 @@
+# it will display everyting from the left table
+# create left join
+SELECT * 
+FROM transactions LEFT JOIN customers
+ON transactions.customer_id=customers.customer_id;
+
+# same for right join
+SELECT * 
+FROM transactions RIGHT JOIN customers
+ON transactions.customer_id=customers.customer_id;

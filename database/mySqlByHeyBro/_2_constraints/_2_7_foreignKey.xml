@@ -1,0 +1,38 @@
+# A foreign key is a rule that connects 
+# two tables in a database. 
+# It makes sure the data in one table is linked 
+# to data in another table.
+
+# create table 1
+CREATE TABLE customers(
+	customer_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50)
+);
+
+# insert values into customer table
+INSERT INTO customers (first_name, last_name)
+VALUES ("Fred", "Fish"),
+	   ("Larry", "Lobster"),
+       ("Bubble","Bass");
+
+
+# creating foreign key on transaction table
+CREATE TABLE transactions (
+	transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+    amount DECIMAL(5,2),
+    customer_id INT,
+    FOREIGN KEY(customer_id)
+    REFERENCES customers(customer_id)
+);
+
+
+# drop a foreign key
+ALTER TABLE transactions 
+DROP FOREIGN KEY transactions_ibfk_1;
+
+# name the foreign key a custom name
+ALTER TABLE transactions
+ADD CONSTRAINT fk_customer_id
+FOREIGN KEY(customer_id) REFERENCES customers(customer_id);
+

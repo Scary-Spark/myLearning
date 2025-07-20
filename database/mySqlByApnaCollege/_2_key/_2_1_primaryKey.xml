@@ -1,0 +1,33 @@
+# Primary Key:
+# It is a column (or set of columns)
+# in a table that uniquely identifies each row. 
+# There is only 1 PK & it should be not null
+
+CREATE TABLE student (
+	id INT PRIMARY KEY NOT NULL
+);
+
+# or
+CREATE TABLE temp1(
+	id int,
+    name VARCHAR(50),
+    age INT,
+    city VARCHAR(20),
+    PRIMARY KEY(id)
+);
+
+
+# two columns primart key:
+# meaning at a same time both of them
+# can't be same.
+# or simply combination should be unique
+# example:
+# invalid: 1. 1, "rahim"   2. 2, "rahim"
+# valid: 1. 1,"rahim"  2. 1,"karim" 
+CREATE TABLE temp1(
+	id int,
+    name VARCHAR(50),
+    age INT,
+    city VARCHAR(20),
+    PRIMARY KEY(id, name)
+);

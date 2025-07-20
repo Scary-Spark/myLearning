@@ -1,0 +1,7 @@
+# FOREIGN KEY:
+# A foreign key is a column (or set of
+# column) in a table that refers to the
+# primary key
+# there can be multiple FK
+# FK's can have duplicate & null values
+

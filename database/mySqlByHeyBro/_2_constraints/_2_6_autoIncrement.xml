@@ -1,0 +1,9 @@
+# increment automatically
+CREATE TABLE product (
+	product_id INT PRIMARY KEY AUTO_INCREMENT
+);
+
+
+# set default value
+ALTER TABLE product
+AUTO_INCREMENT=1000;

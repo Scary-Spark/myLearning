@@ -1,0 +1,13 @@
+# statement
+CREATE TABLE products(
+	price DECIMAL (4,2),
+    CONSTRAINT check_price CHECK (price >=10.50)
+);
+
+# for existing table
+ALTER TABLE products 
+ADD CONSTRAINT check_price CHECK(price>=19.9);
+
+# drop check constraint
+ALTER TABLE products
+DROP CHECK check_price;

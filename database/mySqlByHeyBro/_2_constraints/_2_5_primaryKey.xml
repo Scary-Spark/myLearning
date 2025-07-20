@@ -1,0 +1,10 @@
+# primary meaning unique and not null
+# each table can have only one primary key
+CREATE TABLE transactions(
+	transaction_id INT PRIMARY KEY
+);
+
+# existing table
+ALTER TABLE transactions 
+ADD CONSTRAINT
+PRIMARY KEY (transaction_id);

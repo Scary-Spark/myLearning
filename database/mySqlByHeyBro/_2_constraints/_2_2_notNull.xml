@@ -1,0 +1,8 @@
+# not null
+CREATE TABLE products(
+	product_name VARCHAR(50) NOT NULL
+);
+
+# for existing table
+ALTER TABLE products
+MODIFY product_name VARCHAR(50) NOT NULL;

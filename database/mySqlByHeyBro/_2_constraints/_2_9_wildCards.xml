@@ -1,0 +1,21 @@
+# wild card charecters % _
+# used to substitute one or more
+# charatres in a string
+
+# search any first name that begin 
+# with s
+SELECT * FROM employees 
+WHERE first_name LIKE "s%";
+
+# search any last name that ends with
+# r
+SELECT * FROM employees
+WHERE last_name LIKE "%ar";
+
+# find any letter
+SELECT * FROM employees
+WHERE job LIKE "_ook";
+
+# find the accounts in the january
+SELECT * FROM employees 
+WHERE hire_date LIKE "____-01-__";

@@ -1,0 +1,21 @@
+# limit clause is used to limit
+# the number of records
+
+# useful if you're working with
+# a lot of data
+
+# can be used to display a large
+# data on pages (pagination)
+
+SELECT * FROM employees
+LIMIT 3;
+
+# useful example
+SELECT * FROM employees
+ORDER BY last_name DESC LIMIT 3;
+
+
+# we can also set offset
+# LIMIT offset, value
+SELECT * FROM employees
+LIMIT 2,3;
